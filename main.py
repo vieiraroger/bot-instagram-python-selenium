@@ -42,7 +42,7 @@ class BotInstagram():
 bot = BotInstagram()
 bot.entrar_link("https://www.instagram.com/")
 time.sleep(15)
-bot.entrar_link("https://www.instagram.com/leticiaamorins/")
+bot.entrar_link("https://www.instagram.com/")
 time.sleep(2)
 links_fotos = bot.pegar_link_das_fotos()
 print(links_fotos)
